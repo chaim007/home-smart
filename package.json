@@ -2,7 +2,10 @@
     "name": "home_v1",
     "description": "smart home for me ",
     "version": "0.0.1",
-    "dependencies": {},
+    "dependencies": {
+        "node-red-contrib-mic": "0.0.1",
+        "node-red-contrib-mi-devices": "1.1.1"
+    },
     "node-red": {
         "settings": {
             "flowFile": "flows_chaimdeiMac-2.json",
